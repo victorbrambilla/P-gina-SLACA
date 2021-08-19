@@ -546,6 +546,7 @@ display: flex;
     line-height: 20px;
     color: #ED7839;
     margin-top: 10px;
+    
 }
 
 .article--topic h2{
@@ -628,7 +629,7 @@ footer img{
 }
 
 footer h1{
-    font-size: 14px;
+    font-size: 16px;
     font-family: Quicksand;
     color: #5c5c5c;
 }
