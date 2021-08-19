@@ -200,7 +200,7 @@ display: flex;
 
 }
 
-.section--head{
+.article--head{
     padding:30px;
     width:100%;
     height:auto;
@@ -220,14 +220,14 @@ display: flex;
     
 }
 
-.section1{
+.article1{
     width: 50%;
     height: 100vh;
     
     
 }
 
-.section1 h1{
+.article1 h1{
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -291,24 +291,24 @@ display: flex;
     margin-right: 20px;
 }
 
-.section--right{
+.article--right{
     width: 20%;
 }
 
 
-.section--right buttons{
+.article--right buttons{
     display: block;
     margin-left: 200px;
     justify-content: end;
 }
 
-.section--right buttons img {
+.article--right buttons img {
     width: 19px;
     height: 19px;
     
 }
 
-.section--right h1{
+.article--right h1{
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -319,7 +319,7 @@ display: flex;
     color: #ED7839;
 }
 
-.section--right--details{
+.article--right--details{
     width: 242px;
     height: 439px;   
     border: 1px solid #ECECEC;
@@ -382,7 +382,7 @@ display: flex;
 
 
 
-.section--middle{
+.article--middle{
     width: 100%;
     border:  solid #ECECEC;
     
@@ -527,7 +527,7 @@ display: flex;
 
 
 
-.section--topic{
+.article--topic{
     margin-top: 30px;
     padding: 20px;
     background: #FFFFFF;
@@ -538,7 +538,7 @@ display: flex;
     cursor: pointer;
 }
 
-.section--topic h1{
+.article--topic h1{
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
@@ -548,7 +548,7 @@ display: flex;
     margin-top: 10px;
 }
 
-.section--topic h2{
+.article--topic h2{
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
@@ -558,7 +558,7 @@ display: flex;
     margin-top: 10px;
 }
 
-.section--topic h3{
+.article--topic h3{
     font-family: Quicksand;
     font-style: normal;
     font-weight: normal;
@@ -587,7 +587,7 @@ display: flex;
     margin-right: 10px;
 }
 
-.section--topic a{
+.article--topic a{
     
     display: block;
     background: #ED7839;
@@ -597,7 +597,7 @@ display: flex;
     
 }
 
-.section--topic img{
+.article--topic img{
     padding: 5px 7px 3px 7px;
 
 }
@@ -680,7 +680,7 @@ footer h1{
        
 
    }
-   .section1 h1{
+   .article1 h1{
        font-size: 10px;
        
    }
@@ -710,7 +710,7 @@ footer h1{
        
   }
 
-   .section--right{
+   .article--right{
        width: max-content;
        margin-left: 20px;
    }
@@ -730,35 +730,35 @@ footer h1{
     .nav--menu li{
         font-size: 12px;
     }
-   .section--head{
+   .article--head{
        width: 500px;
    }
     .header{
         width: 100%;
         
     }
-    .section--right .buttons{
+    .article--right .buttons{
         display: flex;
         flex-direction: column;
         justify-content: center;
     
     }
 
-    .section--right--details {
+    .article--right--details {
         width: 100%;
 
     }
 
-    .section--right--details h1{
+    .article--right--details h1{
         font-size: 10px;
 
     }
 
-    .section--right--details h2{
+    .article--right--details h2{
         font-size: 10px;
     }
 
-    .section--right--details h3{
+    .article--right--details h3{
         font-size: 8px;
     }
 
