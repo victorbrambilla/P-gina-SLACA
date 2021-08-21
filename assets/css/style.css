@@ -145,7 +145,7 @@
 
 
 nav{
-    width: 290;
+    width: 220px;
     height: auto;
     display: inline-block;
     background: #FFFFFF;
@@ -642,6 +642,7 @@ footer h1{
 
 
 @media (max-width: 1024px){
+   
     .nav--menu li{
         font-size: 13px;
     }
@@ -675,7 +676,7 @@ footer h1{
 
 
    nav{
-       
+       width: 320px;
        display: none;
    }
 
@@ -727,7 +728,7 @@ footer h1{
        width: max-content;
        margin-left: 20px;
    }
-}
+
 
 
    footer h1{
