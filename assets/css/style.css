@@ -678,6 +678,7 @@ footer h1{
    nav{
        width: 320px;
        display: none;
+       
    }
 
    nav .logo{
@@ -740,6 +741,20 @@ footer h1{
 
 
 @media (max-width:375px){
+    .menu--suspenso{
+        display: flex;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+    nav{
+        position: absolute;
+        width: 100%;
+    }
+    nav .logo{
+        display: none;
+    }
     
     .nav--menu li{
         font-size: 12px;
