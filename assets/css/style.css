@@ -161,6 +161,11 @@ nav{
     width: 220px;
 }
 
+.menu--suspenso{
+    display:none;
+    width: 60px;
+    height: 60px;
+}
 .nav--items{
     list-style: none;
     font-family: Quicksand;
@@ -640,6 +645,9 @@ footer h1{
         font-size: 13px;
     }
     
+    .menu--suspenso{
+        display: block;
+    }
 
     .left{
         display: none;
