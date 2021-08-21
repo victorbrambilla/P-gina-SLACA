@@ -642,7 +642,13 @@ footer h1{
 }
 
 
+
+/*Media Ipads/Tablets */
+
 @media (max-width: 1024px){
+    
+
+    
     nav{
         width: 320px;
         display: none;
@@ -683,25 +689,25 @@ footer h1{
        display: none;
    }
 
+    .article--head{
+        
+        
+    }
 
-   .container{
-       justify-content: space-around;
-       overflow: hidden;
-       
-       
-
-   }
+ 
    .article1 h1{
        font-size: 10px;
        
    }
 
    .video h1{
-       
-       font-size: 9px;
-       
+        font-size: 9px;
+    }
 
-   }
+    .article--right{
+        margin-left: 0px;
+    }      
+   
 
    .video--inform h2{
        font-size: 9px;
@@ -735,11 +741,25 @@ footer h1{
 
 
 
+}
+
+
+
+
+
+/* Midia Smartphone */
+
 
 @media (max-width:375px){
+    main{
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;
+    }
+
     .menu--suspenso{
         display: flex;
-        position:fixed;
+        position:absolute;
         width: 30px;
         height: 30px;
         
@@ -767,17 +787,55 @@ footer h1{
     .nav--menu li{
         font-size: 12px;
     }
+    
+   
    .article--head{
-       width: 500px;
+       width: auto;
    }
     .header{
         width: 100%;
         
     }
+    
+    .container{
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+    }
+
+    .article1{
+        width:100%;
+        height: auto;
+        margin-bottom: 30px;
+        justify-content: center
+    }
+    #h1--video{
+        font-size: 17px;
+    }
+    #h1--article1{
+        font-size: 17px;
+    }
+
+    .video{
+        margin-right: 30px;
+    }
+
+    .video--inform h1{
+        font-size: 13px;
+    }
+    .video--inform h2{
+        font-size: 12px;
+    }
+
+    .article--right{
+        justify-content: first baseline;
+        margin-left: 0px;
+    }
+
     .article--right .buttons{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        
+        justify-content:first baseline;
     
     }
 
@@ -802,13 +860,23 @@ footer h1{
     .video--inform {
         flex-direction: column;
     }
+
+  
+    
+
     .end--resume--button{
         font-size: 9px;
         padding: 0;
         width: 100px;
     }
+
     footer{
         flex-direction: column;
+        
+    }
+
+    footer img{
+        width: 100%;
     }
 
 
