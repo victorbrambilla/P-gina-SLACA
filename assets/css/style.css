@@ -529,7 +529,7 @@ display: flex;
 /* função clique sesssão discussoes*/
 
 
-.end--resume2{
+.resume2{
     display: none;
     justify-content: center;
     align-items: center;
@@ -540,7 +540,7 @@ display: flex;
     border-radius: 3px;
 }
 
-.end--resume2 h1{
+.resume2 h1{
     font-family: Quicksand;
     font-style: normal;
     font-weight: normal;
@@ -559,7 +559,7 @@ display: flex;
     color: #ED7839;
 }
 
-.end--resume2 input{
+.resume2 input{
     width: 100%;
     height: auto;
     padding: 10px;
@@ -567,17 +567,14 @@ display: flex;
 
 }
 
-.end--resume2 label{
+.resume2 label{
     width: 100%;
     margin-top: 20px;
 }
 
-.end--resume2 ::placeholder{
-    
 
-}
 
-.end--resume2 .submit{
+.resume2 .submit{
     margin-top: 20px;
     width: 20%;
     cursor: pointer;
@@ -593,6 +590,71 @@ display: flex;
     text-align: center;
 
     color: #FFFFFF;
+}
+
+.resume3{
+    margin-top: 30px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.resume3 h1{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 137.5%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #F48F44;
+    margin-top: 20px;
+}
+
+.resume3 h2{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #595959;
+    margin-top: 20px;
+}
+.resume3 h3{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 137.5%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #F48F44;
+    margin-top: 20px;
+}
+
+.resume3 input{
+    padding: 10px;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: hidden;
+    position: absolute;
+    margin-top: 170px;
+
 }
 
 
@@ -936,7 +998,15 @@ footer h1{
         padding: 0;
         width: 100px;
     }
-
+    
+    .resume3 input{
+        margin-top: 250px;
+        width: auto;
+    }
+    .resume2 .submit{
+        width: auto;
+        
+    }
     footer{
         flex-direction: column;
         
